@@ -380,12 +380,12 @@ hr {
   gap: 20px;
 }
 
-.footer-bottom-link a:link{
+.footer-bottom-link a{
   text-decoration: none;
   color: var(--white_color);
 }
 
-/* RESPONSIVE FIXES */
+/* RESPONSIVE FIXES FOR TABLET - 768px */
 @media (max-width: 768px) {
 
   .navbar {
@@ -505,10 +505,6 @@ hr {
 
   .footer-bottom{
     flex-direction: row;
-  }
-
-  .footer-bottom-link a{
-    color: var(--white_color);
   }
 
   .footer-nav{
